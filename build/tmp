@@ -1,0 +1,576 @@
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp: In member function ‘virtual void BilateralFilter::Execute()’:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:40: error: no match for ‘operator+’ (operand types are ‘cv::Size’ and ‘double’)
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                        ^
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:40: note: candidates are:
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/4.8/algorithm:61,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/stl_iterator.h:333:5: note: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/4.8/bits/stl_iterator.h:333:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/4.8/algorithm:61,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/stl_iterator.h:1118:5: note: template<class _Iterator> std::move_iterator<_Iterator> std::operator+(typename std::move_iterator<_Iterator>::difference_type, const std::move_iterator<_Iterator>&)
+     operator+(typename move_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/4.8/bits/stl_iterator.h:1118:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const std::move_iterator<_Iterator>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2365:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2365:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:53:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.tcc:692:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.tcc:692:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const _CharT*’ and ‘cv::Size_<int>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:53:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.tcc:708:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+     ^
+/usr/include/c++/4.8/bits/basic_string.tcc:708:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const std::basic_string<_CharT, _Traits, _Alloc>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2402:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2402:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2418:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2418:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2430:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2430:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2436:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, std::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2436:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2442:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, std::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2442:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2454:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2454:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const _CharT*’ and ‘cv::Size_<int>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::basic_string<_CharT, _Traits, _Alloc>&&)
+     operator+(_CharT __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2460:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘std::basic_string<_CharT, _Traits, _Alloc>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2466:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2466:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/random:41,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2472:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)
+     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2472:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘std::basic_string<_CharT, _Traits, _Alloc>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/vector:65:0,
+                 from /usr/include/c++/4.8/bits/random.h:34,
+                 from /usr/include/c++/4.8/random:50,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/opencv2/core/core.hpp:56,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/stl_bvector.h:293:3: note: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_iterator& __x)
+   ^
+/usr/include/c++/4.8/bits/stl_bvector.h:293:3: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘std::ptrdiff_t {aka long int}’
+/usr/include/c++/4.8/bits/stl_bvector.h:379:3: note: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+   ^
+/usr/include/c++/4.8/bits/stl_bvector.h:379:3: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘std::ptrdiff_t {aka long int}’
+In file included from /usr/include/opencv2/core/core.hpp:59:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/complex:324:5: note: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/4.8/complex:324:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::complex<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:59:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/complex:333:5: note: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)
+     operator+(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+/usr/include/c++/4.8/complex:333:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::complex<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:59:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/complex:342:5: note: template<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)
+     operator+(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/4.8/complex:342:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const std::complex<_Tp>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:59:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/complex:443:5: note: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)
+     operator+(const complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:443:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const std::complex<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/c++/4.8/deque:64:0,
+                 from /usr/include/opencv2/objdetect/objdetect.hpp:50,
+                 from /usr/include/opencv/cv.h:71,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/c++/4.8/bits/stl_deque.h:354:5: note: template<class _Tp, class _Ref, class _Ptr> std::_Deque_iterator<_Tp, _Ref, _Ptr> std::operator+(std::ptrdiff_t, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator+(ptrdiff_t __n, const _Deque_iterator<_Tp, _Ref, _Ptr>& __x)
+     ^
+/usr/include/c++/4.8/bits/stl_deque.h:354:5: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   cannot convert ‘s’ (type ‘cv::Size’) to type ‘std::ptrdiff_t {aka long int}’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4855:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/mat.hpp:2030:1: note: template<class _Tp> cv::MatIterator_<_Tp> cv::operator+(std::ptrdiff_t, const cv::MatIterator_<_Tp>&)
+ operator + (ptrdiff_t ofs, const MatIterator_<_Tp>& a)
+ ^
+/usr/include/opencv2/core/mat.hpp:2030:1: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   cannot convert ‘s’ (type ‘cv::Size’) to type ‘std::ptrdiff_t {aka long int}’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4855:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/mat.hpp:2026:1: note: template<class _Tp> cv::MatIterator_<_Tp> cv::operator+(const cv::MatIterator_<_Tp>&, std::ptrdiff_t)
+ operator + (const MatIterator_<_Tp>& a, ptrdiff_t ofs)
+ ^
+/usr/include/opencv2/core/mat.hpp:2026:1: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::MatIterator_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4855:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/mat.hpp:2012:1: note: template<class _Tp> cv::MatConstIterator_<_Tp> cv::operator+(std::ptrdiff_t, const cv::MatConstIterator_<_Tp>&)
+ operator + (ptrdiff_t ofs, const MatConstIterator_<_Tp>& a)
+ ^
+/usr/include/opencv2/core/mat.hpp:2012:1: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   cannot convert ‘s’ (type ‘cv::Size’) to type ‘std::ptrdiff_t {aka long int}’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4855:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/mat.hpp:2008:1: note: template<class _Tp> cv::MatConstIterator_<_Tp> cv::operator+(const cv::MatConstIterator_<_Tp>&, std::ptrdiff_t)
+ operator + (const MatConstIterator_<_Tp>& a, ptrdiff_t ofs)
+ ^
+/usr/include/opencv2/core/mat.hpp:2008:1: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::MatConstIterator_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4855:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/mat.hpp:2001:32: note: cv::MatConstIterator cv::operator+(std::ptrdiff_t, const cv::MatConstIterator&)
+ static inline MatConstIterator operator + (ptrdiff_t ofs, const MatConstIterator& a)
+                                ^
+/usr/include/opencv2/core/mat.hpp:2001:32: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘std::ptrdiff_t {aka long int}’
+/usr/include/opencv2/core/mat.hpp:1998:32: note: cv::MatConstIterator cv::operator+(const cv::MatConstIterator&, std::ptrdiff_t)
+ static inline MatConstIterator operator + (const MatConstIterator& a, ptrdiff_t ofs)
+                                ^
+/usr/include/opencv2/core/mat.hpp:1998:32: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::MatConstIterator&’
+/usr/include/opencv2/core/mat.hpp:1268:20: note: cv::MatExpr cv::operator+(const cv::MatExpr&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator + (const MatExpr& e1, const MatExpr& e2);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1268:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::MatExpr&’
+/usr/include/opencv2/core/mat.hpp:1267:20: note: cv::MatExpr cv::operator+(const Scalar&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator + (const Scalar& s, const MatExpr& e);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1267:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const Scalar& {aka const cv::Scalar_<double>&}’
+/usr/include/opencv2/core/mat.hpp:1266:20: note: cv::MatExpr cv::operator+(const cv::MatExpr&, const Scalar&)
+ CV_EXPORTS MatExpr operator + (const MatExpr& e, const Scalar& s);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1266:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::MatExpr&’
+/usr/include/opencv2/core/mat.hpp:1265:20: note: cv::MatExpr cv::operator+(const cv::Mat&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator + (const Mat& m, const MatExpr& e);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1265:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::Mat&’
+/usr/include/opencv2/core/mat.hpp:1264:20: note: cv::MatExpr cv::operator+(const cv::MatExpr&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator + (const MatExpr& e, const Mat& m);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1264:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::MatExpr&’
+/usr/include/opencv2/core/mat.hpp:1263:20: note: cv::MatExpr cv::operator+(const Scalar&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator + (const Scalar& s, const Mat& a);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1263:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const Scalar& {aka const cv::Scalar_<double>&}’
+/usr/include/opencv2/core/mat.hpp:1262:20: note: cv::MatExpr cv::operator+(const cv::Mat&, const Scalar&)
+ CV_EXPORTS MatExpr operator + (const Mat& a, const Scalar& s);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1262:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::Mat&’
+/usr/include/opencv2/core/mat.hpp:1261:20: note: cv::MatExpr cv::operator+(const cv::Mat&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator + (const Mat& a, const Mat& b);
+                    ^
+/usr/include/opencv2/core/mat.hpp:1261:20: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::Mat&’
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:2248:21: note: cv::Range cv::operator+(int, const cv::Range&)
+ static inline Range operator + (int delta, const Range& r1)
+                     ^
+/usr/include/opencv2/core/operations.hpp:2248:21: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘int’
+/usr/include/opencv2/core/operations.hpp:2243:21: note: cv::Range cv::operator+(const cv::Range&, int)
+ static inline Range operator + (const Range& r1, int delta)
+                     ^
+/usr/include/opencv2/core/operations.hpp:2243:21: note:   no known conversion for argument 1 from ‘cv::Size’ to ‘const cv::Range&’
+/usr/include/opencv2/core/operations.hpp:2092:51: note: template<class _Tp> cv::Scalar_<_Tp> cv::operator+(const cv::Scalar_<_Tp>&, const cv::Scalar_<_Tp>&)
+ template<typename _Tp> static inline Scalar_<_Tp> operator + (const Scalar_<_Tp>& a, const Scalar_<_Tp>& b)
+                                                   ^
+/usr/include/opencv2/core/operations.hpp:2092:51: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Scalar_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1980:49: note: template<class _Tp> cv::Rect_<_Tp> cv::operator+(const cv::Rect_<_Tp>&, const cv::Size_<_Tp>&)
+ template<typename _Tp> static inline Rect_<_Tp> operator + (const Rect_<_Tp>& a, const Size_<_Tp>& b)
+                                                 ^
+/usr/include/opencv2/core/operations.hpp:1980:49: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Rect_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1970:49: note: template<class _Tp> cv::Rect_<_Tp> cv::operator+(const cv::Rect_<_Tp>&, const cv::Point_<_Tp>&)
+ template<typename _Tp> static inline Rect_<_Tp> operator + (const Rect_<_Tp>& a, const Point_<_Tp>& b)
+                                                 ^
+/usr/include/opencv2/core/operations.hpp:1970:49: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Rect_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1880:49: note: template<class _Tp> cv::Size_<_Tp> cv::operator+(const cv::Size_<_Tp>&, const cv::Size_<_Tp>&)
+ template<typename _Tp> static inline Size_<_Tp> operator + (const Size_<_Tp>& a, const Size_<_Tp>& b)
+                                                 ^
+/usr/include/opencv2/core/operations.hpp:1880:49: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const cv::Size_<_Tp>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1810:51: note: template<class _Tp> cv::Point3_<_Tp> cv::operator+(const cv::Point3_<_Tp>&, const cv::Point3_<_Tp>&)
+ template<typename _Tp> static inline Point3_<_Tp> operator + (const Point3_<_Tp>& a, const Point3_<_Tp>& b)
+                                                   ^
+/usr/include/opencv2/core/operations.hpp:1810:51: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Point3_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1697:50: note: template<class _Tp> cv::Point_<_Tp> cv::operator+(const cv::Point_<_Tp>&, const cv::Point_<_Tp>&)
+ template<typename _Tp> static inline Point_<_Tp> operator + (const Point_<_Tp>& a, const Point_<_Tp>& b)
+                                                  ^
+/usr/include/opencv2/core/operations.hpp:1697:50: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Point_<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1561:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator+(_Tp, const cv::Complex<_Tp>&)
+ Complex<_Tp> operator + (_Tp b, const Complex<_Tp>& a)
+              ^
+/usr/include/opencv2/core/operations.hpp:1561:14: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   mismatched types ‘const cv::Complex<_Tp>’ and ‘double’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1553:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator+(const cv::Complex<_Tp>&, _Tp)
+ Complex<_Tp> operator + (const Complex<_Tp>& a, _Tp b)
+              ^
+/usr/include/opencv2/core/operations.hpp:1553:14: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Complex<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1521:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator+(const cv::Complex<_Tp>&, const cv::Complex<_Tp>&)
+ Complex<_Tp> operator + (const Complex<_Tp>& a, const Complex<_Tp>& b)
+              ^
+/usr/include/opencv2/core/operations.hpp:1521:14: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Complex<_Tp>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:1318:1: note: template<class _Tp, int cn> cv::Vec<_Tp, m> cv::operator+(const cv::Vec<_Tp, m>&, const cv::Vec<_Tp, m>&)
+ operator + (const Vec<_Tp, cn>& a, const Vec<_Tp, cn>& b)
+ ^
+/usr/include/opencv2/core/operations.hpp:1318:1: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Vec<_Tp, m>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+In file included from /usr/include/opencv2/core/core.hpp:4854:0,
+                 from /usr/include/opencv/cv.h:64,
+                 from /usr/include/opencv/cv.hpp:50,
+                 from /home/tibo/Templates/OpenCV/hough/src/Filter.hpp:4,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.hpp:5,
+                 from /home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:1:
+/usr/include/opencv2/core/operations.hpp:561:17: note: template<class _Tp, int m, int n> cv::Matx<_Tp, m, n> cv::operator+(const cv::Matx<_Tp, m, n>&, const cv::Matx<_Tp, m, n>&)
+ Matx<_Tp, m, n> operator + (const Matx<_Tp, m, n>& a, const Matx<_Tp, m, n>& b)
+                 ^
+/usr/include/opencv2/core/operations.hpp:561:17: note:   template argument deduction/substitution failed:
+/home/tibo/Templates/OpenCV/hough/src/bilateralFilter.cpp:17:41: note:   ‘cv::Size’ is not derived from ‘const cv::Matx<_Tp, m, n>’
+  adaptiveBilateralFilter(tmp, _out,s, s+2.0);
+                                         ^
+make[2]: *** [CMakeFiles/Hough.dir/src/bilateralFilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Hough.dir/all] Error 2
+make: *** [all] Error 2
