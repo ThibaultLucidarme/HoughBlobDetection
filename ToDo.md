@@ -26,3 +26,8 @@
     
     /!\ in case of pipeline, input is Filter so input maybe be identical (same Filter id) but input->GetOutput() may have changed
     -> be careful when caching 
+    
+### Integrate Parallelization
+
+  optional argument _parallelize
+  #ifdef __thread__ //Plib/core/thread.hpp
